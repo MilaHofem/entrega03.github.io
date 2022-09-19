@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>eMercado - Todo lo que busques está aquí</title>
+  
+  <link href="https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/styles.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: rgb(248, 249, 250);
+    }
+  </style>
+</head>
+
+<body>
+  <main class="mt-5">
+    <div id="divformulario" class="container">
+      <form action="portada.html" id="formlogin">
+        <img class="mb-4" src="img/login.png" id="imagenlogin" alt="imagenlogin" width="350">
+        <h1 class="h3 mb-3 fw-normal" id="iniciosesion">Inicio de sesión</h1>
+        <p class="">Email</p>
+        <div class="">
+          <input type="email" id="idemail" class="form-control" placeholder="nombre@ejemplo.com">
+          <label class="alertaerror" id="iderroremail">Ingresa tu email</label>
+        </div>
+        <br>
+        <p>Contraseña</p>
+        <div class="">
+          <input type="password" id="idcontrasena" class="form-control" placeholder="Contraseña">
+          <label class="alertaerror" id="iderrorcontrasena">Ingresa tu contraseña</label>
+        </div>
+        <br>
+        <div class="checkbox mb-3">
+          <label>
+            <input type="checkbox" value="remember-me"> Recordarme
+          </label>
+        </div>
+        <form>
+        <button class="w-100 btn btn-lg btn-primary" id="botoningresar" type="submit">Ingresar</button>
+        <br>
+        <br>
+        <div id="g_id_onload"
+        data-client_id="243567983595-ainu92l3fre0qn4ikfqsid7pkm2giis7.apps.googleusercontent.com"
+        data-callback= "handleCredentialResponse">
+      </div>
+      <div class="g_id_signin" data-type="standard"></div>      
+        <br>
+
+        <br>
+        </form>
+      </form>
+
+    </div>
+  </main>
+  <footer class="text-muted">
+    <div class="container">
+      <p class="float-end">
+        <a href="#">Volver arriba</a>
+      </p>
+      <p>Este sitio forma parte de <a href="https://jovenesaprogramar.edu.uy/" target="_blank">Jovenes a Programar</a> -
+        2022</p>
+      <p>Clickea <a target="_blank" href="Letra.pdf">aquí</a> para descargar la letra del obligatorio.</p>
+    </div>
+  </footer>
+  <script src="js/login.js"></script>
+  <script src="https://accounts.google.com/gsi/client" async defer></script>
+  
+</body>
+
+</html>
