@@ -62,7 +62,6 @@ function mostrarLista(array){
             </div>
         </div>
         `}
-        localStorage.setItem("arrayProductos", JSON.stringify(prodFilt)) //entrega4
         document.getElementById("autos-list-container").innerHTML = htmlContentToAppend; 
     }
 }
