@@ -1,4 +1,5 @@
 //array donde se cargarán los datos recibidos:
+let lista_productos = [];
 
 if(localStorage.getItem("nombreUsuario") != null){
     let campoNombre = document.getElementById("usuarioId") //id de nav
@@ -7,9 +8,6 @@ if(localStorage.getItem("nombreUsuario") != null){
     campoNombre.innerHTML = nombreUsuario;
     
 }
-
-
-let lista_productos = [];
 
 let rangoMin = document.getElementById("rangoMin")
 let rangoMax = document.getElementById("rangoMax")
